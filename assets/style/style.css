@@ -1,0 +1,69 @@
+@import url(./fonts.css);
+
+:root {
+
+}
+
+/* BASE CONFIG */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: "Noto sans," ;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background: none;
+    border: none;
+}
+
+/* BASE CONFIG */
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    color: #fff;
+    background: url(../images/фон.jpg) no-repeat center/cover;
+}
+
+
+  .hero__title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+ }
+.hero__desc {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-align: center;
+}
+.hero__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+}
+
+/* HERO SECTION */
+
+/* HEADER SECTION */
+.container {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* HEADER SECTION */
